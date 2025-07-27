@@ -1,0 +1,74 @@
+.create-user-form {
+  /* max-width: 100%;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px; */
+  padding: 0 2rem 2rem 2rem;
+}
+
+.form-containter {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-containter label {
+  font-weight: 500;
+}
+
+.create-user-form h2 {
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.create-user-form .header-create-form {
+
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.create-user-form h4 {
+  size: 10px;
+  text-align: start;
+  margin-right: 20px;
+}
+
+.create-user-form form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.create-user-form form > div {
+  width: 48%;
+  margin-bottom: 15px;
+}
+
+.create-user-form form > div input,
+.create-user-form form > div select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* .create-user-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+} */
+
+/* .create-user-form button[type="button"] {
+  background-color: red;
+  color: white;
+}
+
+.create-user-form button + button {
+  margin-left: 10px;
+} */

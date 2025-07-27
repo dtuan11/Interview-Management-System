@@ -1,0 +1,52 @@
+.popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.popup h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.date-inputs {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 40px; */
+    font-size: large;
+}
+
+.date-inputs label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth-container label {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-weight: 500;
+}
+
+.auth-container input {
+    border-radius: 5px;
+    border: 1px solid #ccc ;
+}
+
+.popup input[type="text"] {
+    width: 150px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.popup-buttons-button {
+    padding: 5px 35px;
+}

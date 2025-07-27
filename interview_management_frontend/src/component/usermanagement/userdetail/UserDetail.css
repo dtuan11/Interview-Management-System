@@ -1,0 +1,89 @@
+.user-detail-container .user-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.user-header h1 {
+    margin: 0;
+}
+
+.activate-button, .deactivate-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #d32f2f;
+    color: white;
+}
+
+ 
+  .breadcrumbs {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #6c757d;
+
+  }
+  
+  .user-details {
+    /* display: flex;
+    justify-content: space-between; */
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .left-column, .right-column {
+    text-align: start;
+    width: 45%;
+  }
+  
+  .user-details p {
+  margin-bottom: 1.5rem !important;
+  }
+  
+  .user-details p strong {
+    font-weight: 500;
+    display: inline-block;
+    width: 150px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .activate-button, .submit-button, .cancel-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .activate-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .cancel-button {
+    background-color: #6c757d;
+    color: white;
+  }
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+}

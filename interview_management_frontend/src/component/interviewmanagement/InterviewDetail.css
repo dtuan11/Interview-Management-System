@@ -1,0 +1,136 @@
+/* Base styles */
+#interview-detail {
+  padding: 0 1rem 1rem 1rem;
+}
+
+#interview-detail .interview-details-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#interview-detail .send-schedule {
+margin: 0.5rem 0;
+}
+/* Navbar styles */
+#interview-detail .navbar {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-right: 60%;
+}
+
+#interview-detail .nav-link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+#interview-detail .nav-link:hover {
+  color: #2980b9;
+}
+
+#interview-detail .nav-link.active {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+#interview-detail .nav-separator {
+  margin: 0 0.5rem;
+  color: #95a5a6;
+}
+
+/* Interview details board */
+#interview-detail .interview-details-board {
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+
+#interview-detail .interview-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+#interview-detail .interview-detail {
+  flex: 1;
+  min-width: 250px;
+}
+
+#interview-detail .interview-detail p {
+  margin-bottom: 1.5rem;
+}
+
+#interview-detail .interview-detail strong {
+  font-weight: 600;
+  color: #34495e;
+}
+
+#interview-detail .left-column {
+  border-right: 1px solid #e0e0e0;
+  padding-right: 2rem;
+}
+
+#interview-detail .right-column {
+  /* padding-left: 2rem; */
+}
+
+/* Button styles */
+#interview-detail .button-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#interview-detail .button-submit,
+#interview-detail .button-cancel {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#interview-detail .button-submit {
+  background-color: #007bff;
+  color: white;
+}
+
+#interview-detail .button-submit:hover {
+  background-color: #0056b3;
+}
+
+#interview-detail .button-cancel {
+  background-color: #6c757d;
+  color: white;
+}
+
+#interview-detail .button-cancel:hover {
+  background-color: #5a6268;
+}
+
+/* Utility classes */
+#interview-detail .loading {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+#interview-detail .error-message {
+  color: #e74c3c;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+#interview-detail .no-data {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: #7f8c8d;
+}

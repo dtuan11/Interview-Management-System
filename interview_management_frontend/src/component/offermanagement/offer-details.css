@@ -1,0 +1,149 @@
+.offer-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+
+.offer-section {
+    width: 50%;
+}
+
+.offer-row {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.offer-label {
+    font-weight: bold;
+}
+
+
+.offer-value {
+    margin-left: 60px;
+}
+
+.edit-button {
+    margin-right: 50px;
+    width: 100px;
+}
+
+.cancel-button {
+    width: 100px;
+    margin-bottom: 15px;
+
+}
+
+/* job */
+/* .offer-detail-container {
+    background: #fff;
+} */
+
+header {
+    max-width: 1200px;
+    font-family: Arial, sans-serif;
+}
+
+header nav {
+    font-size: 25px;
+}
+
+nav a {
+    color: #000000;
+    margin-right: 5px;
+}
+
+.offer-details-header {
+    text-align: right;
+    font-size: 12px;
+}
+
+.offer-details-header p {
+    margin-right: 7%;
+    font-size: 15px;
+}
+
+.offer-detail-value {
+    background: rgb(255, 255, 255);
+}
+
+.cancel-offer-button {
+    width: 150px;
+}
+
+.offer-detail-actions {
+    display: flex;
+    justify-content: end;
+
+}
+
+.offer-details-board {
+    /* border: 1px solid #ddd;
+    padding: 1%;
+    border-radius: 4px;
+    margin-right: 5%;
+    margin-left: 5%; */
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1) ;
+    border-radius: 10px ;
+    padding: 1rem;
+    background-color: white;
+}
+
+.offer-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-detail {
+    flex: 1;
+}
+
+.offer-detail p {
+    margin-bottom: 25px;
+}
+
+.offer-detail p strong {
+    font-size: 18px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.left-column {
+    padding-right: 20px;
+}
+
+.right-column {
+    padding-left: 20px;
+}
+
+.offer-actions {
+    margin-top: 20px;
+    display: ruby-text;
+}
+
+/* .offer-details-footer {
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+margin-top: 20px;
+}
+*/
+/* .btn-cancel {
+    width: 100px;
+    margin-bottom: 15px;
+    margin-right: 5%;
+    text-decoration: none;
+    color: black;
+} */
+
+/* .btn-cancel {
+    text-decoration: none;
+    color: black;
+} */
+
+.offer-details-board .grid {
+    margin-bottom: 1.5rem;
+}

@@ -1,0 +1,84 @@
+.container-forgot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .logo-reset-password{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dev {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .title {
+    font-size: 24px;
+  }
+  
+  .instruction {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .send-email-forgot {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+  } */
+  
+ .label-send-email {
+    margin-bottom: 5px;
+  }
+  
+  .input-send-email{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  } 
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn.send {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .btn.cancel {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .btn.cancel a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .btn.send:hover {
+    background-color: #45a049;
+  }
+  
+  .btn.cancel:hover {
+    background-color: #d32f2f;
+  }
+  
